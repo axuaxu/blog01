@@ -1,0 +1,125 @@
+---
+title: Python Daily Journal
+---
+
+## Python Daily Journal  ##
+
+ 
+bluehost aAxX1!2@
+### Python 3.4  ###
+
+ 
+
+
+  [light weight virtual env](http://www.drdobbs.com/architecture-and-design/lightweight-virtual-environments-in-pyth/240167069) 
+- 
+
+upgrade
+python -m venv  C:\python34\envs\dj01 --upgrade
+
+### Create env ###
+C:\Python34\python C:\Python34\Tools\Scripts\pyvenv.py C:\python34\envs\dj01
+ 
+
+### Activating and Deactivating Virtual Environments ###
+
+
+
+-  C:\python34\envs\gimg\scripts\Activate.ps1
+ C:\python34\envs\gimg\scripts\activate.bat
+
+
+-  C:\python34\envs\gimg\scripts\deactivate.bat
+ C:\python34\envs\gimg\scripts\Deactivate.ps1
+
+
+
+- cd C:\python34\dj01\gimg
+
+ 
+### Django ###
+
+- pip install django
+
+- C:\python34\dj01\pdj01
+ 
+
+
+- django-admin.py startproject mysite
+
+
+- django-admin.py startapp myapp
+
+
+- python manage.py makemigrations 
+
+
+- python manage.py migrate
+
+
+- python manage.py runserver 0.0.0.0:8000
+
+
+
+- python manage.py createsuperuser
+
+
+
+- python manage.py inspectdb  
+
+
+### Tutorial ###
+http://www.tangowithdjango.com/
+
+
+
+
+-  xml http://eli.thegreenplace.net/2012/03/15/processing-xml-in-python-with-elementtree
+- http://www.slideshare.net/Counsyl/efficient-djangoquery-setuse
+
+- http://djangotricks.blogspot.ca/2013/12/how-to-export-data-as-excel.html
+
+
+###Program###
+
+
+- giSave.py save google search images to table imageStore
+
+
+- exp-csv.py  export table to csv
+
+- giXML.py guruXML.py convert to wordpress XML
+
+-  sqlite3 shell ,  models create table,sqlite shell import csv
+
+-  .separator ","\
+ 
+- 
+ 
+
+-  .import filecsv.txt mytable 
+
+- pip install csvkit
+
+- csvsql --db sqlite:///path/to/file.db --insert --table mytable filecsv.txt
+
+
+
+###Task###
+
+
+- wordpress feature thumbnail image
+
+###git ###
+git add file.txt
+git rm -r one-of-the-directories
+git commit -m "Remove duplicated directory"
+git push origin master
+
+Fonts, color schemes, layouts and stylesheets are all 100% customizable so you can turn MarkdownPad into your perfect editor.
+
+### A robust editor for advanced Markdown users ###
+
+MarkdownPad supports multiple Markdown processing engines, including standard Markdown, Markdown Extra (with Table support) and GitHub Flavored Markdown.
+
+With a tabbed document interface, PDF export, a built-in image uploader, session management, spell check, auto-save, syntax highlighting and a built-in CSS management interface, there's no limit to what you can do with MarkdownPad.
