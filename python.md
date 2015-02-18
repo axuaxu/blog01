@@ -2,10 +2,62 @@
 title: Python Daily Journal
 ---
 
-## Python Daily Journal  ##
 
  
 bluehost aAxX1!2@
+###scrape###
+http://jakeaustwick.me/a-scrapers-toolkit-redis/
+
+http://kevin.schaul.io/2011/11/07/tutorial-web-scraping-with-django/
+
+https://mattscodecave.com/posts/tutorial-parsing-html-with-lxml-requests-and-xpath-and-sqlite3-part-ii
+
+###Python 2.7 virtual env###
+http://www.tylerbutler.com/2012/05/how-to-install-python-pip-and-virtualenv-on-windows-with-powershell/ ***
+
+PS C:\> pip install virtualenv
+
+
+PS C:\> pip install virtualenvwrapper-powershell
+
+
+Import-Module virtualenvwrapper
+
+mkdir '~\.virtualenvs'
+
+Get-Command *virtualenv*
+
+New-VirtualEnvironment engineer
+
+
+
+
+###lxml###
+http://infohost.nmt.edu/tcc/help/pubs/pylxml/web/index.html   ***
+
+###list###
+http://zetcode.com/lang/python/lists/  ***
+###tutorial###
+http://zetcode.com/lang/python/   ***
+###Python 2.7###
+
+env
+
+python -m SimpleHTTPServer
+
+### Django ###
+
+http://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+
+
+- http://kevin.schaul.io/2011/11/07/tutorial-web-scraping-with-django/
+
+
+- http://docs.python-guide.org/en/latest/scenarios/scrape/
+
+http://jakeaustwick.me/python-web-scraping-resource/
+
 ### Python 3.4  ###
 
  
@@ -72,6 +124,7 @@ C:\Python34\python C:\Python34\Tools\Scripts\pyvenv.py C:\python34\envs\dj01
 http://www.tangowithdjango.com/
 
 
+http://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/  ***
 
 
 -  xml http://eli.thegreenplace.net/2012/03/15/processing-xml-in-python-with-elementtree
@@ -104,15 +157,22 @@ http://www.tangowithdjango.com/
 - csvsql --db sqlite:///path/to/file.db --insert --table mytable filecsv.txt
 
 
+###errors###
+Unofficial Windows Binaries for Python Extension Packages
 
+
+http://www.lfd.uci.edu/~gohlke/pythonlibs/
 ###Task###
 
 
 - wordpress feature thumbnail image
 
 ###git ###
+git remote add origin https://github.com/axuaxu/blog02
+ git push --set-upstream origin master
 git add file.txt
 git rm -r one-of-the-directories
+git remote rm origin
 git commit -m "Remove duplicated directory"
 git push origin master
 
