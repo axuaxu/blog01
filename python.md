@@ -1,7 +1,22 @@
 ---
 title: Python Daily Journal
 ---
+###sample sites###
+http://www.randomfunfacts.com/
 
+###data source ###
+http://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/
+
+http://smartdatacollective.com/bernardmarr/235366/big-data-20-free-big-data-sources-everyone-should-know
+
+http://rs.io/100-interesting-data-sets-for-statistics/
+
+https://www.google.com/cse/publicurl?cx=002720237717066476899:v2wv26idk7m
+
+http://features.en.softonic.com/top-free-flashcard-apps  flashcard
+
+###charka###
+http://www.freemeditation.com/online-meditation/self-realization-workshop-kundalini-awakening/
 
  
 bluehost aAxX1!2@
@@ -28,6 +43,8 @@ mkdir '~\.virtualenvs'
 Get-Command *virtualenv*
 
 New-VirtualEnvironment engineer
+
+workon engineer
 
 
 
@@ -121,6 +138,14 @@ C:\Python34\python C:\Python34\Tools\Scripts\pyvenv.py C:\python34\envs\dj01
 
 
 ### Tutorial ###
+https://pythonhosted.org/kitchen/unicode-frustrations.html
+
+
+http://learnpythonthehardway.org/book/ex40.html
+
+http://stackoverflow.com/questions/12000742/remove-xe2-x80-xa6-from-string-python
+
+
 http://www.tangowithdjango.com/
 
 
@@ -169,11 +194,18 @@ http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 ###git ###
 git remote add origin https://github.com/axuaxu/blog02
+
+
  git push --set-upstream origin master
+
 git add file.txt
+
 git rm -r one-of-the-directories
+
 git remote rm origin
+
 git commit -m "Remove duplicated directory"
+
 git push origin master
 
 Fonts, color schemes, layouts and stylesheets are all 100% customizable so you can turn MarkdownPad into your perfect editor.
