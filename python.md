@@ -4,8 +4,32 @@ title: Python Daily Journal
 ###sample sites###
 http://www.randomfunfacts.com/
 
+http://didyouknow.org/fastfacts/
+
 ###data source ###
 http://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/
+
+http://www.irc-wiki.org/Trivia_History
+
+trivia
+
+http://answers.google.com/answers/threadview/id/180470.html 
+
+ Best Answer:  http://www.triviaplaying.com/
+
+http://www.triviacafe.com/
+
+http://www.inthe80s.com/tvtriv.shtml
+
+http://halife.com/trivia/tq.html
+
+http://atriviabreak.net/
+
+http://www.diva-girl-parties-and-stuff.com/trivia.html
+
+http://www.triviawars.com/
+
+http://rinkworks.com/trivia/
 
 http://smartdatacollective.com/bernardmarr/235366/big-data-20-free-big-data-sources-everyone-should-know
 
@@ -112,7 +136,7 @@ C:\Python34\python C:\Python34\Tools\Scripts\pyvenv.py C:\python34\envs\dj01
 
 - C:\python34\dj01\pdj01
  
-
+- pip freeze > requirements.txt
 
 - django-admin.py startproject mysite
 
@@ -138,6 +162,9 @@ C:\Python34\python C:\Python34\Tools\Scripts\pyvenv.py C:\python34\envs\dj01
 
 
 ### Tutorial ###
+http://www.seehuhn.de/pages/pdate#sec:1.1.0    datetime 
+
+
 https://pythonhosted.org/kitchen/unicode-frustrations.html
 
 
@@ -207,6 +234,15 @@ git remote rm origin
 git commit -m "Remove duplicated directory"
 
 git push origin master
+
+git push -u origin master
+
+
+
+###data###
+askscience todayileared dataisbeautiful/
+explainlikeimfive/ Futurology/ history/ science/ /LifeProTips/
+GetMotivated/ InternetIsBeautiful/Showerthoughts/ funny/
 
 Fonts, color schemes, layouts and stylesheets are all 100% customizable so you can turn MarkdownPad into your perfect editor.
 
